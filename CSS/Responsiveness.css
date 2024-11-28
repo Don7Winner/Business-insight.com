@@ -1,0 +1,126 @@
+@media (max-width: 1236px) {
+  h1 {
+    font-size: 2.4rem;
+  }
+  .description {
+    font-size: 1.2rem;
+  }
+  .component p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1058px) {
+  .content {
+    width: 90%;
+  }
+}
+@media (max-width: 945px) {
+  .content {
+    width: 100%;
+    margin: 0 1rem;
+  }
+  .list-item {
+    padding: 0 2rem;
+  }
+}
+@media (max-width: 851px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .description {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 720px) {
+  body {
+    height: 100%;
+    margin: 4rem 0;
+  }
+  .content {
+    grid-template-columns: 1fr;
+
+    width: 80%;
+    margin: 0 auto;
+  }
+  .img-container {
+    grid-row: 1;
+
+    background: url(../images/image-header-mobile.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    background-image: linear-gradient(
+      rgba(170, 92, 219, 0.842),
+      rgba(170, 92, 219, 0.829)
+    );
+  }
+  .list {
+    justify-items: center;
+  }
+  .list-item {
+    justify-self: center;
+    padding: 0 2rem;
+    width: 100%;
+    margin: 4rem 0 3rem;
+  }
+  h1 {
+    font-size: 2.8rem;
+  }
+  .description {
+    font-size: 1.4rem;
+  }
+  .component span {
+    font-size: 1.4rem;
+  }
+  .component p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 601px) {
+  h1 {
+    font-size: 2.4rem;
+  }
+  .description {
+    font-size: 1.2rem;
+  }
+  .component span {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 504px) {
+  h1 {
+    font-size: 1.9rem;
+  }
+}
+@media (max-width: 420px) {
+  .list-item {
+    text-align: center;
+  }
+  h1 {
+    font-size: 2.4rem;
+  }
+  .description {
+    font-size: 1.2rem;
+  }
+  .component {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    width: 100%;
+  }
+  .component span {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 375px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .description {
+    font-size: 1.1rem;
+  }
+  .component span {
+    font-size: 1.2rem;
+  }
+}
